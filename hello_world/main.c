@@ -12,7 +12,7 @@ int main(void)
 
     str = malloc(13*sizeof(char));
     scanf(" %s", str);
-    if(strcmp(str, "Hello_world!") == 0)
+    if(strcmp(str, "Hello_World!") == 0)
         printf("Hello World!\n");
     return 0;
 }
